@@ -1,4 +1,4 @@
-#!./node_modules/.bin/babel-node
+#!/usr/bin/env node
 import { askPlayerName } from '..';
 
 
