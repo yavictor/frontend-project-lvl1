@@ -1,4 +1,4 @@
-.PHONY: install start publish
+.PHONY: install start publish lint
 
 install:
 	npm install
@@ -8,3 +8,6 @@ start:
 
 publish:
 	npm publish --dry-run
+
+lint:
+	npx eslint src/bin/brain-games.js
