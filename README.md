@@ -12,8 +12,8 @@
 $ make install
 ```
 
-## Run tests
+## Start
 
 ```sh
-$ make test
+$ make start
 ```
