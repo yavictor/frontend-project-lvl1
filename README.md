@@ -17,3 +17,6 @@ $ make install
 ```sh
 $ make start
 ```
+## Execute
+
+<a href="https://asciinema.org/a/7GZjfa6NnzQmpQEp24luSyXMJ" target="_blank"><img src="https://asciinema.org/a/7GZjfa6NnzQmpQEp24luSyXMJ.svg" /></a>
