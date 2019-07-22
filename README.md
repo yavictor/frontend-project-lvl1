@@ -17,6 +17,6 @@ $ make install
 ```sh
 $ make start
 ```
-## Execute
+## Execute brain-even game
 
-<a href="https://asciinema.org/a/7GZjfa6NnzQmpQEp24luSyXMJ" target="_blank"><img src="https://asciinema.org/a/7GZjfa6NnzQmpQEp24luSyXMJ.svg" /></a>
+<a href="https://asciinema.org/a/Ern3rEjDmidYrskxmtvJrfh2z" target="_blank"><img src="https://asciinema.org/a/Ern3rEjDmidYrskxmtvJrfh2z.svg" /></a>
