@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { car, cdr, cons } from '@hexlet/pairs';
+import { cons } from '@hexlet/pairs';
 import gameEngine, { isEven, randomNumber } from '..';
 
 const rules = 'Answer "yes" if number even otherwise answer "no". \n';

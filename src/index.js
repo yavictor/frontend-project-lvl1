@@ -1,4 +1,4 @@
-import { car, cdr, cons } from '@hexlet/pairs';
+import { car, cdr } from '@hexlet/pairs';
 import readlineSync from 'readline-sync';
 
 
@@ -6,7 +6,7 @@ const askPlayerName = () => readlineSync.question('May I have your name? ');
 
 const askAnswer = () => readlineSync.question('Your answer: ');
 
-const randomNumber = maxNum => Math.floor(Math.random() * (maxNum - 1)) + 1;
+const randomNumber = maxNum => Math.floor(Math.random() * (maxNum - 1));
 
 const isEven = num => ((num % 2 === 0) ? 'yes' : 'no');
 
@@ -22,7 +22,7 @@ const gameEngine = (gameDescr, gameCons) => {
     const corAnswer = cdr(constructor);
     console.log(`Question: ${askQuestion}`);
     const playerAnswer = askAnswer();
-    if (corAnswer === playerAnswer) {
+    if (+corAnswer === +playerAnswer) {
       console.log('Correct');
     } else {
       i = 3;

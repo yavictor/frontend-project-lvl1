@@ -1,14 +1,25 @@
 #!/usr/bin/env node
-import { car, cdr, cons } from '@hexlet/pairs';
-import gameEngine, { isEven, randomNumber } from '..';
+import { cons } from '@hexlet/pairs';
+import gameEngine, { randomNumber } from '..';
 
-const rules = 'Answer "yes" if number even otherwise answer "no". \n';
+const rules = 'What is the result of the expression? \n';
 
-const isEvenGame = () => {
-  const number = randomNumber(100);
-  const isAnswerCorrect = isEven(number);
+const calcGame = () => {
+  const number1 = randomNumber(30);
+  const number2 = randomNumber(10);
+  const values = '+-*';
+  const expression = values.charAt(randomNumber(4));
+  const randomExpression = `${number1} ${expression} ${number2}`;
+  const randomExpressionResult = (x, y, exp) => {
+    if (exp === '-') {
+      return x - y;
+    } if (exp === '+') {
+      return x + y;
+    } return x * y;
+  };
+  const correctAnswer = randomExpressionResult(number1, number2, expression);
 
-  return cons(number, isAnswerCorrect);
+  return cons(randomExpression, correctAnswer);
 };
 
-gameEngine(rules, isEvenGame);
+gameEngine(rules, calcGame);
