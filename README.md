@@ -20,3 +20,7 @@ $ make start
 ## Execute brain-even game
 
 <a href="https://asciinema.org/a/Ern3rEjDmidYrskxmtvJrfh2z" target="_blank"><img src="https://asciinema.org/a/Ern3rEjDmidYrskxmtvJrfh2z.svg" /></a>
+
+## Execute brain-calc game
+
+<script id="asciicast-rrN4EHjntiDeKx0muBEghneG3" src="https://asciinema.org/a/rrN4EHjntiDeKx0muBEghneG3.js" async></script>
