@@ -23,4 +23,4 @@ $ make start
 
 ## Execute brain-calc game
 
-<script id="asciicast-rrN4EHjntiDeKx0muBEghneG3" src="https://asciinema.org/a/rrN4EHjntiDeKx0muBEghneG3.js" async></script>
+<a href="https://asciinema.org/a/rrN4EHjntiDeKx0muBEghneG3" target="_blank"><img src="https://asciinema.org/a/rrN4EHjntiDeKx0muBEghneG3.svg" /></a>
