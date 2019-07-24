@@ -24,3 +24,7 @@ $ make start
 ## Execute brain-calc game
 
 <a href="https://asciinema.org/a/rrN4EHjntiDeKx0muBEghneG3" target="_blank"><img src="https://asciinema.org/a/rrN4EHjntiDeKx0muBEghneG3.svg" /></a>
+
+## Execute brain gcd game
+
+<a href="https://asciinema.org/a/DnVP7rQtPG1BTaD3jntqNSfd8" target="_blank"><img src="https://asciinema.org/a/DnVP7rQtPG1BTaD3jntqNSfd8.svg" /></a>
