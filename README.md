@@ -23,8 +23,12 @@ $ make start
 
 ## Execute brain-calc game
 
-<a href="https://asciinema.org/a/rrN4EHjntiDeKx0muBEghneG3" target="_blank"><img src="https://asciinema.org/a/rrN4EHjntiDeKx0muBEghneG3.svg" /></a>
+<a href="https://asciinema.org/a/DD9Zivjd2ImoZ8ehLxvEFnrJn" target="_blank"><img src="https://asciinema.org/a/DD9Zivjd2ImoZ8ehLxvEFnrJn.svg" /></a>
 
-## Execute brain gcd game
+## Execute brain-gcd game
 
 <a href="https://asciinema.org/a/DnVP7rQtPG1BTaD3jntqNSfd8" target="_blank"><img src="https://asciinema.org/a/DnVP7rQtPG1BTaD3jntqNSfd8.svg" /></a>
+
+## Execute brain-progression game
+
+<a href="https://asciinema.org/a/laHRQB379yU1YOaemU1QjBHXU" target="_blank"><img src="https://asciinema.org/a/laHRQB379yU1YOaemU1QjBHXU.svg" /></a>
