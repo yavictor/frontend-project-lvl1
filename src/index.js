@@ -23,7 +23,7 @@ const gameEngine = (gameDescr, gameCons) => {
     const playerAnswer = askAnswer();
     if (String(corAnswer) === String(playerAnswer)) {
       console.log('Correct');
-      if (String(corAnswer) === String(playerAnswer) && i >= 2) {
+      if (i >= 2) {
         console.log(`Congratulations, ${playerName}!`);
       }
     } else if (String(corAnswer) !== String(playerAnswer)) {
