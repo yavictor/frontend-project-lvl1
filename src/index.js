@@ -29,7 +29,7 @@ const gameEngine = (gameDescr, gameCons) => {
     } else if (String(corAnswer) !== String(playerAnswer)) {
       i = 3;
       console.log(`${playerAnswer} is wrong answer ;(. Correct answer was ${corAnswer}. \r
-  Let's try again, ${playerName}!`);
+Let's try again, ${playerName}!`);
     }
   }
 };
