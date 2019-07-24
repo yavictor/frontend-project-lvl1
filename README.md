@@ -17,6 +17,13 @@ $ make install
 ```sh
 $ make start
 ```
+
+## Install this repo with 'npm link'
+
+```sh
+$ npm link frontend-project-lvl1_yv
+```
+
 ## Execute brain-even game
 
 <a href="https://asciinema.org/a/Ern3rEjDmidYrskxmtvJrfh2z" target="_blank"><img src="https://asciinema.org/a/Ern3rEjDmidYrskxmtvJrfh2z.svg" /></a>
@@ -32,3 +39,7 @@ $ make start
 ## Execute brain-progression game
 
 <a href="https://asciinema.org/a/laHRQB379yU1YOaemU1QjBHXU" target="_blank"><img src="https://asciinema.org/a/laHRQB379yU1YOaemU1QjBHXU.svg" /></a>
+
+## Execute brain-prime game
+
+<a href="https://asciinema.org/a/hfSvijPSngW7CDzfhNQfZuoEv" target="_blank"><img src="https://asciinema.org/a/hfSvijPSngW7CDzfhNQfZuoEv.svg" /></a>
