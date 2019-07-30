@@ -2,13 +2,13 @@
 import { cons } from '@hexlet/pairs';
 import gameEngine, { isEven, randomNumber } from '..';
 
-const rules = 'Answer "yes" if number even otherwise answer "no". \n';
+const description = 'Answer "yes" if number even otherwise answer "no". \n';
 
 const isEvenGame = () => {
-  const number = randomNumber(100);
-  const isAnswerCorrect = isEven(number);
+  const question = randomNumber(0, 100);
+  const correctAnswer = isEven(question);
 
-  return cons(number, isAnswerCorrect);
+  return cons(question, correctAnswer);
 };
 
-gameEngine(rules, isEvenGame);
+gameEngine(description, isEvenGame);

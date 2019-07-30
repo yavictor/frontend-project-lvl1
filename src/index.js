@@ -5,9 +5,7 @@ const askPlayerName = () => readlineSync.question('May I have your name? ');
 
 const askAnswer = () => readlineSync.question('Your answer: ');
 
-const randomNumber = maxNum => Math.floor(Math.random() * (maxNum - 1));
-
-const randomMinMax = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+const randomNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 
 const isEven = num => ((num % 2 === 0) ? 'yes' : 'no');
 
@@ -38,4 +36,4 @@ Let's try again, ${playerName}!`);
 
 export default gameEngine;
 
-export { askPlayerName, isEven, randomMinMax, randomNumber };
+export { askPlayerName, isEven, randomNumber };

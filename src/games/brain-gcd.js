@@ -2,11 +2,11 @@
 import { cons } from '@hexlet/pairs';
 import gameEngine, { randomNumber } from '..';
 
-const rules = 'Find the greatest common divisor of given numbers. \n';
+const description = 'Find the greatest common divisor of given numbers. \n';
 
 const gcdGame = () => {
-  const number1 = randomNumber(101);
-  const number2 = randomNumber(101);
+  const number1 = randomNumber(1, 101);
+  const number2 = randomNumber(1, 101);
   const gcdNumbers = `${number1} ${number2}`;
   const gcdOfNumbers = (num1, num2) => {
     if (num2 > num1) {
@@ -20,4 +20,4 @@ const gcdGame = () => {
   return cons(gcdNumbers, correctAnswer);
 };
 
-gameEngine(rules, gcdGame);
+gameEngine(description, gcdGame);

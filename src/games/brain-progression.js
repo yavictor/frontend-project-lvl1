@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 import { cons } from '@hexlet/pairs';
-import gameEngine, { randomMinMax } from '..';
+import gameEngine, { randomNumber } from '..';
 
-const rules = 'What number is missing in the progression? \n';
+const description = 'What number is missing in the progression? \n';
 
 const progressionGame = () => {
-  const number1 = randomMinMax(1, 30);
-  const progressionStep = randomMinMax(2, 6);
-  const missingNumberPosition = randomMinMax(0, 9);
+  const number1 = randomNumber(1, 30);
+  const progressionStep = randomNumber(2, 6);
+  const missingNumberPosition = randomNumber(0, 9);
   const createProgression = (from, progressStep, missingNumber) => {
     let progressionStr = '';
     const progressionLimit = progressStep * 10 + from;
@@ -23,4 +23,4 @@ const progressionGame = () => {
   return cons(runProgression, correctAnswer);
 };
 
-gameEngine(rules, progressionGame);
+gameEngine(description, progressionGame);

@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 import { cons } from '@hexlet/pairs';
-import gameEngine, { randomMinMax } from '..';
+import gameEngine, { randomNumber } from '..';
 
-const rules = 'Answer "yes" if given number is prime. Otherwise answer "no". \n';
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no". \n';
 
 const isPrimeGame = () => {
-  const number1 = randomMinMax(1, 100);
+  const number1 = randomNumber(1, 100);
   const isPrime = (number) => {
     if (number < 2) {
       return false;
@@ -20,4 +20,4 @@ const isPrimeGame = () => {
   return cons(number1, isPrime(number1));
 };
 
-gameEngine(rules, isPrimeGame);
+gameEngine(description, isPrimeGame);
