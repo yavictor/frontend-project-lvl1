@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import { cons } from '@hexlet/pairs';
 import gameEngine, { randomNumber } from '..';
 
@@ -25,4 +24,5 @@ const calcGame = () => {
   return cons(randomExpression, correctAnswer);
 };
 
-gameEngine(description, calcGame);
+const brainCalc = () => gameEngine(description, calcGame);
+export default brainCalc;
