@@ -9,7 +9,7 @@ const gameEngine = (gameDescr, gameCons) => {
   const playerName = readlineSync.question('May I have your name? ');
   console.log(`Hello ${playerName}! \n`);
 
-  for (let i = 0; i < 3; i += 1) {
+  for (let i = 0; i <= 3; i += 1) {
     const constructor = gameCons();
     const askQuestion = car(constructor);
     const corAnswer = cdr(constructor);
@@ -17,7 +17,7 @@ const gameEngine = (gameDescr, gameCons) => {
     const playerAnswer = readlineSync.question('Your answer: ');
     if (String(corAnswer) === String(playerAnswer)) {
       console.log('Correct');
-      if (i >= 2) {
+      if (i === 3) {
         console.log(`Congratulations, ${playerName}!`);
       }
     } else if (String(corAnswer) !== String(playerAnswer)) {
