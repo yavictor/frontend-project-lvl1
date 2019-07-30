@@ -27,7 +27,7 @@ $ npm link frontend-project-lvl1_yv
 
 ## Execute brain-even game
 
-<a href="https://asciinema.org/a/Ern3rEjDmidYrskxmtvJrfh2z" target="_blank"><img src="https://asciinema.org/a/Ern3rEjDmidYrskxmtvJrfh2z.svg" /></a>
+<a href="https://asciinema.org/a/VJtzyf57E2OD86svKSEHcvzGQ" target="_blank"><img src="https://asciinema.org/a/VJtzyf57E2OD86svKSEHcvzGQ.svg" /></a>
 
 ## Execute brain-calc game
 
