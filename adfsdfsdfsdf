@@ -1,0 +1,310 @@
+[33mcommit 034bc9337d8594fcf479bfc2b8c1779d25cc3022[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: 6523c43 9d75a3a
+Author: yv <yavictor37@yandex.ru>
+Date:   Tue Jul 30 14:17:55 2019 +0300
+
+    Merge branch 'master' of https://github.com/yavictor/frontend-project-lvl1
+
+[33mcommit 9d75a3afc8b9edb6f22109dc7a86dfc2eecfb197[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: yavictor <31189356+yavictor@users.noreply.github.com>
+Date:   Tue Jul 30 14:17:26 2019 +0300
+
+    Update README.md
+
+[33mcommit 6523c4397fbb2fcbd38d22f1d52a60a3238e5dc5[m
+Merge: 07d81e6 24e065c
+Author: yv <yavictor37@yandex.ru>
+Date:   Tue Jul 30 14:15:23 2019 +0300
+
+    Merge branch 'master' of https://github.com/yavictor/frontend-project-lvl1
+
+[33mcommit 07d81e696ae0142c2d38c80319fbdd24dd8ebaaa[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Tue Jul 30 14:14:49 2019 +0300
+
+    fix brain-games.js
+
+[33mcommit 24e065c411556f211d6b5d86a294c6dfd9fae4f2[m
+Author: yavictor <31189356+yavictor@users.noreply.github.com>
+Date:   Tue Jul 30 14:07:40 2019 +0300
+
+    Update README.md
+
+[33mcommit 46f8b75f2508907ac5e6abcdd0891ba223bfa94a[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Tue Jul 30 13:02:02 2019 +0300
+
+    Change limit numbers in gameEngine for-cycle for better cognition of it
+
+[33mcommit 4e4cdb419a4f9da2a5b5234d1332661aed742f52[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Tue Jul 30 12:52:15 2019 +0300
+
+    Removed simple constants and embed it values in gameEngine, replace iSEven to module that use it
+
+[33mcommit adfb173edd99dcfe58387119367854cde51d4b7c[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Tue Jul 30 12:41:29 2019 +0300
+
+    Change return values to boolean in isPrime function
+
+[33mcommit 03064252c92ba46cfc2983fc76fd32909a6e9862[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Tue Jul 30 12:33:32 2019 +0300
+
+    Change variable name in brain-progression
+
+[33mcommit 0fa749c866565ddbb456cf47e30cda449039f29f[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Tue Jul 30 12:24:13 2019 +0300
+
+    Change function name and replace it in upper scope
+
+[33mcommit 51a26f80421ab933f464f69fd5bb51ab73ebef53[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Tue Jul 30 12:14:23 2019 +0300
+
+    Rename vaiables and add switch construction in calc game.
+
+[33mcommit 13ae84564b727115ef4587d6cd786d8743c87fea[m
+Merge: 56fdada a7cc2aa
+Author: yv <yavictor37@yandex.ru>
+Date:   Tue Jul 30 11:33:59 2019 +0300
+
+    Merge branch 'master' of https://github.com/yavictor/frontend-project-lvl1
+
+[33mcommit 56fdadae9d4d41cab6f0576dcd4959a8d0dfc815[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Tue Jul 30 11:33:21 2019 +0300
+
+    Removed main section in package.json
+
+[33mcommit a7cc2aa87221048738328d5d2debf70b30779f26[m
+Author: yavictor <31189356+yavictor@users.noreply.github.com>
+Date:   Tue Jul 30 11:19:18 2019 +0300
+
+    Update README.md
+
+[33mcommit 9c607dfc29ef62f4789c25e0d3693974d64b2a54[m
+Author: yavictor <31189356+yavictor@users.noreply.github.com>
+Date:   Tue Jul 30 11:14:50 2019 +0300
+
+    Update README.md
+
+[33mcommit 0a2c7a6ebb0c1f2d6a206a8d8b8e92f5fdfd36c6[m
+Author: yavictor <31189356+yavictor@users.noreply.github.com>
+Date:   Wed Jul 24 20:26:48 2019 +0300
+
+    Update README.md
+
+[33mcommit 683178eb4be4a55568a7160162b6d6605be86a8f[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Wed Jul 24 20:21:35 2019 +0300
+
+    Create dir with games
+
+[33mcommit 1d7fb5cdf778fc3fdcca0b34315390e0e66c02fd[m
+Author: yavictor <31189356+yavictor@users.noreply.github.com>
+Date:   Wed Jul 24 20:11:49 2019 +0300
+
+    Update README.md
+
+[33mcommit 488d46085177fddf56311e6c264369d64ea8b688[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Wed Jul 24 20:08:37 2019 +0300
+
+    Added brain-prime module
+
+[33mcommit 30b15e029ec95750aa9ccb19f9a5a88d2a0e47b4[m
+Author: yavictor <31189356+yavictor@users.noreply.github.com>
+Date:   Wed Jul 24 19:41:55 2019 +0300
+
+    Update README.md
+
+[33mcommit f8915c5278e0b0fbcb96a7f3bcace35fb8ec608e[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Wed Jul 24 19:35:07 2019 +0300
+
+    Added brain-progression game
+
+[33mcommit fc3f3cb1d3af1a3456b2da411c805d8c265ee02d[m
+Author: yavictor <31189356+yavictor@users.noreply.github.com>
+Date:   Wed Jul 24 11:39:14 2019 +0300
+
+    Update README.md
+
+[33mcommit c06cc0cd12cc48ab58f8ccbd1a2a0d2ccf0393e6[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Wed Jul 24 11:38:21 2019 +0300
+
+    Added brain-gcd
+
+[33mcommit af1b52f5393a36dc9c78bdafa4f9762924790640[m
+Merge: db4ed28 7106738
+Author: yv <yavictor37@yandex.ru>
+Date:   Wed Jul 24 10:17:12 2019 +0300
+
+    Merge branch 'master' of https://github.com/yavictor/frontend-project-lvl1
+
+[33mcommit 710673891edb1c6712a5c78fa144da7548d50520[m
+Author: yavictor <31189356+yavictor@users.noreply.github.com>
+Date:   Wed Jul 24 10:16:18 2019 +0300
+
+    Update README.md
+
+[33mcommit 21fa9d159c819fa7acfc83fc448155b06bdd42f0[m
+Author: yavictor <31189356+yavictor@users.noreply.github.com>
+Date:   Wed Jul 24 10:15:29 2019 +0300
+
+    Update README.md
+
+[33mcommit db4ed28f4f4051ca566e35ce0dd7a14cfd608f98[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Wed Jul 24 10:08:58 2019 +0300
+
+    debug game engine
+
+[33mcommit 32d9958426432e2109d531b8635b22bb2bd4e3cb[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Wed Jul 24 00:01:35 2019 +0300
+
+    engine logic fix
+
+[33mcommit 14426b3aeefac8cc56475ddcdb7c32334c675f18[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Tue Jul 23 23:18:15 2019 +0300
+
+    game engine fix
+
+[33mcommit 7d9e26ce32ba6812225c9bd359f564c9b0134412[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Tue Jul 23 21:32:38 2019 +0300
+
+    publish 1.0.15 version of npm module
+
+[33mcommit 2cc27c1a6bbdf654462cd75d4cf5b137dd56475a[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Tue Jul 23 21:30:21 2019 +0300
+
+    add brain-calc module
+
+[33mcommit ca807aea35ae9c98849545b44ba8a64e6b646626[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Tue Jul 23 20:45:04 2019 +0300
+
+    Rewrite game-engine in outer module
+
+[33mcommit 6dd2b73cb7840a1e0bd0037f8d394d9e343a16f7[m
+Author: yavictor <31189356+yavictor@users.noreply.github.com>
+Date:   Mon Jul 22 11:59:43 2019 +0300
+
+    Update README.md
+
+[33mcommit 12cacfb220d03e309cbc59e52cbb58910b97f386[m
+Author: yavictor <31189356+yavictor@users.noreply.github.com>
+Date:   Mon Jul 22 11:51:51 2019 +0300
+
+    Update README.md
+
+[33mcommit d192c4a592d84a6af96a19b88b3bae3f56cfa62f[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Mon Jul 22 00:15:33 2019 +0300
+
+    add brain-even game
+
+[33mcommit 262086979dad5362c6260b52702aad543bc58f5d[m
+Author: yavictor <31189356+yavictor@users.noreply.github.com>
+Date:   Sun Jul 21 11:02:04 2019 +0300
+
+    Update README.md
+
+[33mcommit b0119778d5fbdca75e7631af7feca8c9bc72cb44[m
+Author: yavictor <31189356+yavictor@users.noreply.github.com>
+Date:   Sun Jul 21 10:58:32 2019 +0300
+
+    Update README.md
+
+[33mcommit 9ef1e4c327671376e7beb75ba6ae8927fc50847d[m
+Author: yavictor <31189356+yavictor@users.noreply.github.com>
+Date:   Sat Jul 20 17:11:19 2019 +0300
+
+    Update README.md
+
+[33mcommit 5d7a328552b0a2ffb733c5d83136d52a42c63014[m
+Merge: 97426b3 05db348
+Author: yv <yavictor37@yandex.ru>
+Date:   Sat Jul 20 17:02:10 2019 +0300
+
+    Merge branch 'master' of https://github.com/yavictor/frontend-project-lvl1
+
+[33mcommit 97426b3cb1e65d36dd3418b5d4b11d643d685568[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Sat Jul 20 16:51:26 2019 +0300
+
+    Add eslint and travis
+
+[33mcommit 05db3482cd0c2c644451fd4c12c0fe756e2531fe[m
+Author: yavictor <31189356+yavictor@users.noreply.github.com>
+Date:   Sat Jul 20 16:46:16 2019 +0300
+
+    Update README.md
+
+[33mcommit cf55423f57ed68a4672b54beccff101e1fa6584c[m
+Author: yavictor <31189356+yavictor@users.noreply.github.com>
+Date:   Sat Jul 20 15:42:50 2019 +0300
+
+    Create README.md
+
+[33mcommit 883df8a3a7fa4388de926fcc87f995aefe7a1d8b[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Sat Jul 20 12:46:50 2019 +0300
+
+    change path to babel-node in bin
+
+[33mcommit 16a4b15620d2f8fd68a5c35cc70f950da187b1af[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Sat Jul 20 12:29:28 2019 +0300
+
+    change main section in package.json
+
+[33mcommit c46f8b8230a8ad9a70d022c8e3a14ffeebc1b554[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Fri Jul 19 21:48:53 2019 +0300
+
+    version update after changes
+
+[33mcommit fa867fde627d2201d0aa19cf90f6c5750d5ec63c[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Fri Jul 19 21:38:09 2019 +0300
+
+    delete old version files
+
+[33mcommit 902e55f97d35da7c379f84f58a1a66d7e8c187c0[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Fri Jul 19 21:31:47 2019 +0300
+
+    version update in package-lock
+
+[33mcommit 605140ab309c356531c769e9c801eec1c77d2d47[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Fri Jul 19 21:26:44 2019 +0300
+
+    modified version in package.json
+
+[33mcommit 7385391ccb6b2cd57827e9390abcaea2ccfb6059[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Fri Jul 19 21:14:58 2019 +0300
+
+    Add readlineSync library and use it
+
+[33mcommit 1a62881835eb9cba0ed4cf26ec604c0503f70bb8[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Fri Jul 19 15:39:51 2019 +0300
+
+    create npm packet
+
+[33mcommit 4511b60508fcdea1cbfac9431d43a293ea24c38d[m
+Author: yv <yavictor37@yandex.ru>
+Date:   Fri Jul 19 12:05:55 2019 +0300
+
+    Stage 2 tasks
