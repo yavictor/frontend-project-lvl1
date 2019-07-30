@@ -12,10 +12,10 @@ const isPrimeGame = () => {
     }
     for (let i = 2; i < number; i += 1) {
       if (number % i === 0) {
-        return 'no';
+        return false;
       }
     }
-    return 'yes';
+    return true;
   };
   return cons(number1, isPrime(number1));
 };
