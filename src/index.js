@@ -1,18 +1,12 @@
 import { car, cdr } from '@hexlet/pairs';
 import readlineSync from 'readline-sync';
 
-const askPlayerName = () => readlineSync.question('May I have your name? ');
-
-const askAnswer = () => readlineSync.question('Your answer: ');
-
 const randomNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min;
-
-const isEven = num => ((num % 2 === 0) ? 'yes' : 'no');
 
 const gameEngine = (gameDescr, gameCons) => {
   console.log('Welcome to the Brain Games');
   console.log(gameDescr);
-  const playerName = askPlayerName();
+  const playerName = readlineSync.question('May I have your name? ');
   console.log(`Hello ${playerName}! \n`);
 
   for (let i = 0; i < 3; i += 1) {
@@ -20,7 +14,7 @@ const gameEngine = (gameDescr, gameCons) => {
     const askQuestion = car(constructor);
     const corAnswer = cdr(constructor);
     console.log(`Question: ${askQuestion}`);
-    const playerAnswer = askAnswer();
+    const playerAnswer = readlineSync.question('Your answer: ');
     if (String(corAnswer) === String(playerAnswer)) {
       console.log('Correct');
       if (i >= 2) {
@@ -36,4 +30,4 @@ Let's try again, ${playerName}!`);
 
 export default gameEngine;
 
-export { askPlayerName, isEven, randomNumber };
+export { randomNumber };
