@@ -21,7 +21,7 @@ $ make start
 ## Install this repo with 'npm link'
 
 ```sh
-$ npm link frontend-project-lvl1_yv
+$ npm link frontend-project-lvl1_yv 
 ```
 <a href="https://asciinema.org/a/nAaOetD5LoIs3g4RCQBZGTe3A" target="_blank"><img src="https://asciinema.org/a/nAaOetD5LoIs3g4RCQBZGTe3A.svg" /></a>
 
