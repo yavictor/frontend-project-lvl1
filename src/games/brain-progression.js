@@ -9,14 +9,14 @@ const progressionGame = () => {
   const progressionStep = randomNumber(2, 6);
   const missingNumberPosition = randomNumber(0, 9);
   const createProgression = (from, progressStep, missingNumber) => {
-    let progressionStr = '';
+    let progressionLine = '';
     const progressionLimit = progressStep * 10 + from;
     for (let i = from; i < progressionLimit; i += progressionStep) {
       if (i === missingNumber * progressStep + from) {
-        progressionStr += '.. ';
-      } else progressionStr += `${i} `;
+        progressionLine += '.. ';
+      } else progressionLine += `${i} `;
     }
-    return progressionStr;
+    return progressionLine;
   };
   const correctAnswer = missingNumberPosition * progressionStep + number1;
   const runProgression = createProgression(number1, progressionStep, missingNumberPosition);
