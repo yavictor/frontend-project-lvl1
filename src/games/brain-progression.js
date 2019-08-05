@@ -14,8 +14,8 @@ const progressionGame = () => {
     const progressionLimit = progressStep * progressionSize + progressionStart;
     for (let i = progressionStart; i < progressionLimit; i += progressionStep) {
       if (i === missingNumber * progressStep + progressionStart) {
-        progressionLine += '.. ';
-      } else progressionLine += `${i} `;
+        progressionLine = `.. `;
+      } else progressionLine = `${i} `;
     }
     return progressionLine;
   };
