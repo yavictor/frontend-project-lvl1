@@ -1,7 +1,7 @@
 import { cons } from '@hexlet/pairs';
 import gameEngine, { randomNumber } from '..';
 
-const description = 'Answer "yes" if given number is prime. Otherwise answer "no". \n';
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrimeGame = () => {
   const number1 = randomNumber(1, 100);

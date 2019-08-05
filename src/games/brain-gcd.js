@@ -1,7 +1,7 @@
 import { cons } from '@hexlet/pairs';
 import gameEngine, { randomNumber } from '..';
 
-const description = 'Find the greatest common divisor of given numbers. \n';
+const description = 'Find the greatest common divisor of given numbers.';
 
 const gcdSearch = (num1, num2) => {
   if (num2 > num1) {

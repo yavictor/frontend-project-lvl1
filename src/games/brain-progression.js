@@ -1,7 +1,7 @@
 import { cons } from '@hexlet/pairs';
 import gameEngine, { randomNumber } from '..';
 
-const description = 'What number is missing in the progression? \n';
+const description = 'What number is missing in the progression?';
 
 const progressionGame = () => {
   const number1 = randomNumber(1, 30);

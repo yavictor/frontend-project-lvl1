@@ -5,7 +5,7 @@ const randomNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min
 
 const gameEngine = (gameDescr, gameCons) => {
   console.log('Welcome to the Brain Games');
-  console.log(gameDescr);
+  console.log(`${gameDescr} \n`);
   const playerName = readlineSync.question('May I have your name? ');
   console.log(`Hello ${playerName}! \n`);
 

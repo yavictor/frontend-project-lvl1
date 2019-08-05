@@ -1,7 +1,7 @@
 import { cons } from '@hexlet/pairs';
 import gameEngine, { randomNumber } from '..';
 
-const description = 'What is the result of the expression? \n';
+const description = 'What is the result of the expression?';
 
 const number1 = randomNumber(1, 30);
 const number2 = randomNumber(1, 10);
