@@ -3,7 +3,7 @@ import gameEngine, { randomNumber } from '..';
 
 const description = 'Find the greatest common divisor of given numbers.';
 
-const gcdSearch = (num1, num2) => {
+const searchGcd = (num1, num2) => {
   if (num2 > num1) {
     return gcdSearch(num2, num1);
   } if (num2 === 0) {
@@ -11,14 +11,14 @@ const gcdSearch = (num1, num2) => {
   } return gcdSearch(num2, (num1 % num2));
 };
 
-const gcdGame = () => {
+const askGcd = () => {
   const number1 = randomNumber(1, 101);
   const number2 = randomNumber(1, 101);
-  const gcdNumbers = `${number1} ${number2}`;
-  const correctAnswer = gcdSearch(number1, number2);
+  const question = `${number1} ${number2}`;
+  const correctAnswer = searchGcd(number1, number2);
 
-  return cons(gcdNumbers, correctAnswer);
+  return cons(question, correctAnswer);
 };
 
-const brainGcd = () => gameEngine(description, gcdGame);
+const brainGcd = () => gameEngine(description, askGcd);
 export default brainGcd;
