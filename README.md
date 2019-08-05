@@ -23,7 +23,7 @@ $ make start
 ```sh
 $ npm link frontend-project-lvl1_yv 
 ```
-<a href="https://asciinema.org/a/nAaOetD5LoIs3g4RCQBZGTe3A" target="_blank"><img src="https://asciinema.org/a/nAaOetD5LoIs3g4RCQBZGTe3A.svg" /></a>
+<a href="https://asciinema.org/a/zymgFOG3UEK4eZGL9ZWHtw32j" target="_blank"><img src="https://asciinema.org/a/zymgFOG3UEK4eZGL9ZWHtw32j.svg" /></a>
 
 ## Execute brain-even game
 
@@ -31,16 +31,16 @@ $ npm link frontend-project-lvl1_yv
 
 ## Execute brain-calc game
 
-<a href="https://asciinema.org/a/DD9Zivjd2ImoZ8ehLxvEFnrJn" target="_blank"><img src="https://asciinema.org/a/DD9Zivjd2ImoZ8ehLxvEFnrJn.svg" /></a>
+<a href="https://asciinema.org/a/lOXjmtDJzjJ9VW4fq5I3VJSa8" target="_blank"><img src="https://asciinema.org/a/lOXjmtDJzjJ9VW4fq5I3VJSa8.svg" /></a>
 
 ## Execute brain-gcd game
 
-<a href="https://asciinema.org/a/DnVP7rQtPG1BTaD3jntqNSfd8" target="_blank"><img src="https://asciinema.org/a/DnVP7rQtPG1BTaD3jntqNSfd8.svg" /></a>
+<a href="https://asciinema.org/a/lfMBecldB1tJm14AuiSOuHja2" target="_blank"><img src="https://asciinema.org/a/lfMBecldB1tJm14AuiSOuHja2.svg" /></a>
 
 ## Execute brain-progression game
 
-<a href="https://asciinema.org/a/laHRQB379yU1YOaemU1QjBHXU" target="_blank"><img src="https://asciinema.org/a/laHRQB379yU1YOaemU1QjBHXU.svg" /></a>
+<a href="https://asciinema.org/a/LQBxsB9gRKXXkWEISlbPYvipn" target="_blank"><img src="https://asciinema.org/a/LQBxsB9gRKXXkWEISlbPYvipn.svg" /></a>
 
 ## Execute brain-prime game
 
-<a href="https://asciinema.org/a/hfSvijPSngW7CDzfhNQfZuoEv" target="_blank"><img src="https://asciinema.org/a/hfSvijPSngW7CDzfhNQfZuoEv.svg" /></a>
+<a href="https://asciinema.org/a/7fQH7ioEkuEbbgrdJEPHvQBtZ" target="_blank"><img src="https://asciinema.org/a/7fQH7ioEkuEbbgrdJEPHvQBtZ.svg" /></a>
