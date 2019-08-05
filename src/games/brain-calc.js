@@ -6,12 +6,12 @@ const description = 'What is the result of the expression? \n';
 const number1 = randomNumber(1, 30);
 const number2 = randomNumber(1, 10);
 const operations = '+-*';
-const expression = mathOperations.charAt(randomNumber(1, 3));
+const randomOperation = mathOperations.charAt(randomNumber(1, operations.length));
 
 const calcGame = () => {
-  const randomExpression = `${number1} ${expression} ${number2}`;
-  const randomExpressionResult = (x, y, expressionType) => {
-    switch (expressionType) {
+  const task = `${number1} ${randomOperation} ${number2}`;
+  const taskResult = (x, y, operation) => {
+    switch (operation) {
       case '-':
         return x - y;
       case '+':
@@ -20,9 +20,9 @@ const calcGame = () => {
         return x * y;
     }
   };
-  const correctAnswer = randomExpressionResult(number1, number2, expression);
+  const correctAnswer = taskResult(number1, number2, randomOperation);
 
-  return cons(randomExpression, correctAnswer);
+  return cons(task, correctAnswer);
 };
 
 const brainCalc = () => gameEngine(description, calcGame);
