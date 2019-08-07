@@ -7,21 +7,21 @@ const description = 'What number is missing in the progression?';
 const progressionSize = 10;
 
 const progressionGame = () => {
-  const startNumber = randomNumber(1, 30);
+  const startElement = randomNumber(1, 30);
   const progressionStep = randomNumber(2, 6);
-  const missingNumberPosition = randomNumber(0, progressionSize - 1);
+  const missingElementIndex = randomNumber(0, progressionSize - 1);
   const createProgression = (progressionStart, progressStep, missingNumber) => {
-    let progressionLine = '';
-    const progressionLimit = progressStep * progressionSize + progressionStart;
-    for (let i = progressionStart; i < progressionLimit; i += progressionStep) {
+    let progression = '';
+    const progressionEnd = progressStep * progressionSize + progressionStart;
+    for (let i = progressionStart; i < progressionEnd; i += progressionStep) {
       if (i === missingNumber * progressStep + progressionStart) {
-        progressionLine = `.. `;
-      } else progressionLine = `${i} `;
+        progression = `..`;
+      } else progression = `${i} `;
     }
-    return progressionLine;
+    return progression;
   };
-  const correctAnswer = missingNumberPosition * progressionStep + startNumber;
-  const runProgression = createProgression(progressionStart, progressionStep, missingNumberPosition);
+  const correctAnswer = missingElementIndex * progressionStep + startElement;
+  const runProgression = createProgression(startElement, progressionStep, missingElementIndex);
   return cons(runProgression, correctAnswer);
 };
 

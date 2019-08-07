@@ -1,14 +1,15 @@
 import { car, cdr } from '@hexlet/pairs';
 import readlineSync from 'readline-sync';
 
+const stepsCount = 3;
+
 const gameEngine = (gameDescr, gameCons) => {
   console.log('Welcome to the Brain Games');
   console.log(`${gameDescr} \n`);
   const playerName = readlineSync.question('May I have your name? ');
   console.log(`Hello ${playerName}! \n`);
 
-  const numberOfRounds = 3;
-  for (let i = 0; i <= numberOfRounds; i += 1) {
+  for (let i = 0; i <= stepsCount; i += 1) {
     const constructor = gameCons();
     const askQuestion = car(constructor);
     const corAnswer = cdr(constructor);
@@ -16,13 +17,13 @@ const gameEngine = (gameDescr, gameCons) => {
     const playerAnswer = readlineSync.question('Your answer: ');
     if (String(corAnswer) === String(playerAnswer)) {
       console.log('Correct');
-      if (i === numberOfRounds) {
+      if (i === stepsCount) {
         console.log(`Congratulations, ${playerName}!`);
       }
     } else if (String(corAnswer) !== String(playerAnswer)) {
-      i = numberOfRounds;
-      console.log(`${playerAnswer} is wrong answer ;(. Correct answer was ${corAnswer}. \r
-Let's try again, ${playerName}!`);
+      i = stepsCount;
+      console.log(`${playerAnswer} is wrong answer ;(. Correct answer was ${corAnswer}.`);
+      console.log(`Let's try again, ${playerName}!`);
     }
   }
 };

@@ -6,7 +6,7 @@ const description = 'What is the result of the expression?';
 
 const mathOperations = '+-*';
 
-const taskResult = (x, y, operation) => {
+const getTaskResult = (x, y, operation) => {
   switch (operation) {
     case '-':
       return x - y;
@@ -22,7 +22,7 @@ const getCalcGame = () => {
   const number2 = randomNumber(1, 10);
   const randomOperation = mathOperations.charAt(randomNumber(1, mathOperations.length));
   const question = `${number1} ${randomOperation} ${number2}`;
-  const correctAnswer = taskResult(number1, number2, randomOperation);
+  const correctAnswer = getTaskResult(number1, number2, randomOperation);
 
   return cons(question, correctAnswer);
 };

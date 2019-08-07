@@ -6,13 +6,13 @@ const description = 'Find the greatest common divisor of given numbers.';
 
 const searchGcd = (num1, num2) => {
   if (num2 > num1) {
-    return gcdSearch(num2, num1);
+    return searchGcd(num2, num1);
   } if (num2 === 0) {
     return num1;
-  } return gcdSearch(num2, (num1 % num2));
+  } return searchGcd(num2, (num1 % num2));
 };
 
-const askGcd = () => {
+const getGcd = () => {
   const number1 = randomNumber(1, 101);
   const number2 = randomNumber(1, 101);
   const question = `${number1} ${number2}`;
@@ -21,4 +21,4 @@ const askGcd = () => {
   return cons(question, correctAnswer);
 };
 
-export default () => gameEngine(description, askGcd);
+export default () => gameEngine(description, getGcd);
