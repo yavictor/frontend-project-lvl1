@@ -4,7 +4,7 @@ import randomNumber from '../utils';
 
 const description = 'Answer "yes" if number even otherwise answer "no".';
 
-const isEven = num => ((num % 2 === 0) ? true : false);
+const isEven = num => num % 2 === 0;
 
 const evenGame = () => {
   const question = randomNumber(0, 100);
@@ -13,5 +13,4 @@ const evenGame = () => {
   return cons(question, correctAnswer);
 };
 
-const brainEven = () => gameEngine(description, evenGame);
-export default brainEven;
+export default () => gameEngine(description, evenGame);

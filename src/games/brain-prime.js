@@ -20,5 +20,4 @@ const isPrimeGame = () => {
   return cons(number1, isPrime(number1));
 };
 
-const brainPrime = () => gameEngine(description, isPrimeGame);
-export default brainPrime;
+export default () => gameEngine(description, isPrimeGame);

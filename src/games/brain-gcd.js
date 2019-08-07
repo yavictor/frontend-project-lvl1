@@ -21,5 +21,4 @@ const askGcd = () => {
   return cons(question, correctAnswer);
 };
 
-const brainGcd = () => gameEngine(description, askGcd);
-export default brainGcd;
+export default () => gameEngine(description, askGcd);

@@ -26,5 +26,4 @@ const calcGame = () => {
   return cons(task, correctAnswer);
 };
 
-const brainCalc = () => gameEngine(description, calcGame);
-export default brainCalc;
+export default () => gameEngine(description, calcGame);

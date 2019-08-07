@@ -25,5 +25,4 @@ const progressionGame = () => {
   return cons(runProgression, correctAnswer);
 };
 
-const brainProgression = () => gameEngine(description, progressionGame);
-export default brainProgression;
+export default () => gameEngine(description, progressionGame);
