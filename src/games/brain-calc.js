@@ -1,11 +1,12 @@
 import { cons } from '@hexlet/pairs';
-import gameEngine, { randomNumber } from '..';
+import gameEngine from '..';
+import randomNumber from '../utils';
 
 const description = 'What is the result of the expression?';
 
 const number1 = randomNumber(1, 30);
 const number2 = randomNumber(1, 10);
-const operations = '+-*';
+const mathOperations = '+-*';
 const randomOperation = mathOperations.charAt(randomNumber(1, operations.length));
 
 const calcGame = () => {

@@ -1,8 +1,6 @@
 import { car, cdr } from '@hexlet/pairs';
 import readlineSync from 'readline-sync';
 
-const randomNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min;
-
 const gameEngine = (gameDescr, gameCons) => {
   console.log('Welcome to the Brain Games');
   console.log(`${gameDescr} \n`);
@@ -30,5 +28,3 @@ Let's try again, ${playerName}!`);
 };
 
 export default gameEngine;
-
-export { randomNumber };
