@@ -1,10 +1,10 @@
-.PHONY: install start publish lint
+.PHONY: install start-progression publish lint
 
 install:
 	npm install
 
-start:
-	npx babel-node src/bin/brain-games.js
+start-progression:
+	npx babel-node src/bin/brain-progression.js
 
 publish:
 	npm publish --dry-run
