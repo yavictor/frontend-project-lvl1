@@ -20,9 +20,9 @@ const getTaskResult = (x, y, operation) => {
 const getCalcGame = () => {
   const number1 = randomNumber(1, 30);
   const number2 = randomNumber(1, 10);
-  const randomOperation = mathOperations.charAt(randomNumber(1, mathOperations.length));
-  const question = `${number1} ${randomOperation} ${number2}`;
-  const correctAnswer = getTaskResult(number1, number2, randomOperation);
+  const operation = mathOperations.charAt(randomNumber(0, mathOperations.length));
+  const question = `${number1} ${operation} ${number2}`;
+  const correctAnswer = getTaskResult(number1, number2, operation);
 
   return cons(question, correctAnswer);
 };
