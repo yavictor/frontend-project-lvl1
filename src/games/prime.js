@@ -16,9 +16,10 @@ const isPrime = (number) => {
   return true;
 };
 
-const isPrimeGame = () => {
-  const number1 = randomNumber(1, 100);
-  return cons(number1, isPrime(number1));
+const getGameData = () => {
+  const question = randomNumber(1, 100);
+  const correctAnswer = isPrime(question) ? 'yes' : 'no';
+  return cons(question, correctAnswer);
 };
 
-export default () => gameEngine(description, isPrimeGame);
+export default () => gameEngine(description, getGameData);

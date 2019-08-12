@@ -17,14 +17,14 @@ const getTaskResult = (x, y, operation) => {
   }
 };
 
-const getCalcGame = () => {
+const getGameData = () => {
   const number1 = randomNumber(1, 30);
   const number2 = randomNumber(1, 10);
-  const operation = mathOperations.charAt(randomNumber(0, mathOperations.length));
+  const operation = mathOperations.charAt(randomNumber(-1, mathOperations.length - 1));
   const question = `${number1} ${operation} ${number2}`;
-  const correctAnswer = getTaskResult(number1, number2, operation);
+  const correctAnswer = String(getTaskResult(number1, number2, operation));
 
   return cons(question, correctAnswer);
 };
 
-export default () => gameEngine(description, getCalcGame);
+export default () => gameEngine(description, getGameData);
