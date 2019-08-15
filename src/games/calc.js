@@ -12,15 +12,17 @@ const getTaskResult = (x, y, operation) => {
       return x - y;
     case '+':
       return x + y;
-    default:
+    case '*':
       return x * y;
+    default:
+      return null;
   }
 };
 
 const getGameData = () => {
   const number1 = randomNumber(1, 30);
   const number2 = randomNumber(1, 10);
-  const operation = mathOperations.charAt(randomNumber(-1, mathOperations.length - 1));
+  const operation = mathOperations.charAt(randomNumber(0, mathOperations.length));
   const question = `${number1} ${operation} ${number2}`;
   const correctAnswer = String(getTaskResult(number1, number2, operation));
 

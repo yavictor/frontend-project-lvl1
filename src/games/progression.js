@@ -6,12 +6,12 @@ const description = 'What number is missing in the progression?';
 
 const progressionSize = 10;
 
-const createProgression = (progressionStart, progressStep, missingElement) => {
+const createQuestion = (progressionStart, progressStep, missingItemIndex, progressionLength) => {
   let progression = '';
-  for (let i = 0; i < progressionSize; i += 1) {
-    if (i === missingElement) {
-      progression = `${progression} ..`;
-    } else progression = `${progression} ${progressionStart + progressStep * i}`;
+  for (let i = 0; i < progressionLength; i += 1) {
+    if (i === missingItemIndex) {
+      progression = `${progression}.. `;
+    } else progression = `${progression}${progressionStart + progressStep * i} `;
   }
   return progression;
 };
@@ -21,8 +21,9 @@ const getGameData = () => {
   const progressionStep = randomNumber(2, 6);
   const missingElementIndex = randomNumber(0, progressionSize - 1);
   const correctAnswer = String(missingElementIndex * progressionStep + startElement);
-  const runProgression = createProgression(startElement, progressionStep, missingElementIndex);
-  return cons(runProgression, correctAnswer);
+  const progression = createQuestion(startElement, progressionStep, missingElementIndex,
+    progressionSize);
+  return cons(progression, correctAnswer);
 };
 
 export default () => gameEngine(description, getGameData);

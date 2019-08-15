@@ -10,4 +10,4 @@ publish:
 	npm publish --dry-run
 
 lint:
-	npx eslint src/bin/progression.js
+	npx eslint *
