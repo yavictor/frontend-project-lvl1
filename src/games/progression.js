@@ -13,7 +13,7 @@ const createQuestion = (progressionStart, progressStep, missingItemIndex, progre
       progression = `${progression}.. `;
     } else progression = `${progression}${progressionStart + progressStep * i} `;
   }
-  return progression;
+  return progression.trim();
 };
 
 const getGameData = () => {
