@@ -6,7 +6,7 @@ const description = 'What is the result of the expression?';
 
 const mathOperations = '+-*';
 
-const getTaskResult = (x, y, operation) => {
+const calculate = (x, y, operation) => {
   switch (operation) {
     case '-':
       return x - y;
@@ -20,13 +20,13 @@ const getTaskResult = (x, y, operation) => {
 };
 
 const getGameData = () => {
-  const number1 = randomNumber(1, 30);
-  const number2 = randomNumber(1, 10);
-  const operation = mathOperations.charAt(randomNumber(0, mathOperations.length));
-  const question = `${number1} ${operation} ${number2}`;
-  const correctAnswer = String(getTaskResult(number1, number2, operation));
+  const a = randomNumber(1, 30);
+  const b = randomNumber(1, 10);
+  const operation = mathOperations.charAt(randomNumber(0, mathOperations.length - 1));
+  const question = `${a} ${operation} ${b}`;
+  const answer = String(calculate(a, b, operation));
 
-  return cons(question, correctAnswer);
+  return cons(question, answer);
 };
 
 export default () => gameEngine(description, getGameData);

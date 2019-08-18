@@ -16,9 +16,9 @@ const getGameData = () => {
   const number1 = randomNumber(1, 101);
   const number2 = randomNumber(1, 101);
   const question = `${number1} ${number2}`;
-  const correctAnswer = String(searchGcd(number1, number2));
+  const answer = String(searchGcd(number1, number2));
 
-  return cons(question, correctAnswer);
+  return cons(question, answer);
 };
 
 export default () => gameEngine(description, getGameData);

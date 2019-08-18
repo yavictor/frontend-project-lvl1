@@ -8,9 +8,9 @@ const isEven = num => num % 2 === 0;
 
 const getGameData = () => {
   const question = randomNumber(1, 100);
-  const correctAnswer = isEven(question) ? 'yes' : 'no';
+  const answer = isEven(question) ? 'yes' : 'no';
 
-  return cons(question, correctAnswer);
+  return cons(question, answer);
 };
 
 export default () => gameEngine(description, getGameData);

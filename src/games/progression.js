@@ -4,7 +4,7 @@ import randomNumber from '../utils';
 
 const description = 'What number is missing in the progression?';
 
-const progressionSize = 10;
+const length = 10;
 
 const createQuestion = (progressionStart, progressStep, missingItemIndex, progressionLength) => {
   let progression = '';
@@ -17,13 +17,12 @@ const createQuestion = (progressionStart, progressStep, missingItemIndex, progre
 };
 
 const getGameData = () => {
-  const startElement = randomNumber(1, 30);
-  const progressionStep = randomNumber(2, 6);
-  const missingElementIndex = randomNumber(0, progressionSize - 1);
-  const correctAnswer = String(missingElementIndex * progressionStep + startElement);
-  const progression = createQuestion(startElement, progressionStep, missingElementIndex,
-    progressionSize);
-  return cons(progression, correctAnswer);
+  const init = randomNumber(1, 30);
+  const step = randomNumber(2, 6);
+  const missingElementIndex = randomNumber(0, length - 1);
+  const answer = String(missingElementIndex * step + init);
+  const question = createQuestion(init, step, missingElementIndex, length);
+  return cons(question, answer);
 };
 
 export default () => gameEngine(description, getGameData);
