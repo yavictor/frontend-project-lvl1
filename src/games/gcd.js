@@ -7,7 +7,8 @@ const description = 'Find the greatest common divisor of given numbers.';
 const searchGcd = (num1, num2) => {
   if (num2 > num1) {
     return searchGcd(num2, num1);
-  } if (num2 === 0) {
+  }
+  if (num2 === 0) {
     return num1;
   } return searchGcd(num2, (num1 % num2));
 };

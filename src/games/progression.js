@@ -6,12 +6,12 @@ const description = 'What number is missing in the progression?';
 
 const length = 10;
 
-const createQuestion = (progressionStart, progressStep, missingItemIndex, progressionLength) => {
+const createQuestion = (start, step, missingIndex, progressionLength) => {
   let progression = '';
   for (let i = 0; i < progressionLength; i += 1) {
-    if (i === missingItemIndex) {
+    if (i === missingIndex) {
       progression = `${progression}.. `;
-    } else progression = `${progression}${progressionStart + progressStep * i} `;
+    } else progression = `${progression}${start + step * i} `;
   }
   return progression.trim();
 };

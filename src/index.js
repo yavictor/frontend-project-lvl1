@@ -7,7 +7,7 @@ export default (gameQuestion, getGameData) => {
   console.log('Welcome to the Brain Games');
   console.log(`${gameQuestion}\n`);
   const playerName = readlineSync.question('May I have your name? ');
-  console.log(`Hello ${playerName}! \n`);
+  console.log(`Hello ${playerName}!\n`);
 
   for (let i = 0; i < stepsCount; i += 1) {
     const roundData = getGameData();

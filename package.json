@@ -1,7 +1,7 @@
 {
   "name": "frontend-project-lvl1_yv",
   "version": "1.0.21",
-  "description": "",
+  "description": "Set of cli mini games, that train your brain",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
     "brain-even": "dist/bin/brain-even.js",
